@@ -15,7 +15,9 @@ Also initial commit will be created and uploaded to newly created repo.
 Installation
 ============
 
-Installation is simple. Just download (or clone) createrepo.sh to your directory and execute as root:
+Installation is simple. Just download (or clone) createrepo.sh to your directory.
+Edit it and change `GIT_HOST`, `GIT_USER` and `GIT_REPOS_DIR` to proper values.
+Execute as root:
 ```
 cp createrepo.sh /usr/bin/createrepo
 chmod +x /usr/bin/createrepo
